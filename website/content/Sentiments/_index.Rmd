@@ -10,7 +10,7 @@ text-align: left}
 </style>
 
 ## 3. Sentiments
-To capture the attitudes for 
+To capture the attitudes for each tweet we obtained in the prior section, several sentiment analyzers were chosen. These analyzers check for each tweet each word against a predefined lexicon, that contains words and their respective sentiment scores. From the number of scores obtained by the analyzer for each tweet, one final sum of scores gets calculated.
 The following sentiment lexica were used to compute the sentiments for each tweet: 
 
 - **_Bing_** : positive/negative word list 
